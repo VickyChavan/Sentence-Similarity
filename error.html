@@ -1,0 +1,8 @@
+{% extends 'template.html' %}
+{% block content %}
+<div class = "center">
+    <img class = "error-img" src = "{{ url_for('static', filename = 'error.jpg') }}">
+    <br>
+    <h2 class = "danger">Error {{ error.code }}: {{ error.name }}</h2>
+</div>
+{% endblock %}

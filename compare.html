@@ -1,0 +1,11 @@
+{% extends 'template.html' %}
+{% block content %}
+<div class = "row">
+    <div class = "col-md-6">
+        {{ file1 | safe}}
+    </div>
+    <div class = "col-md-6">
+        {{ file2 | safe }}
+    </div>
+</div>
+{% endblock %}

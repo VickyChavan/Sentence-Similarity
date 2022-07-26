@@ -1,0 +1,19 @@
+{% extends 'template.html' %}
+{% block content %}
+<form action = "checker/" method = "post" enctype="multipart/form-data">
+    <div class = "form-group">
+        <label for = "file1">File 1</label>
+        <input type = "file" class = "form-control" id = "file1" name = "File1" required>
+        <label for = "file2">File 2</label>
+        <input type = "file" class = "form-control" id = "file2" name = "File2" required>
+    </div>
+    <div class = "form-group">
+        <label for = "compare_by">Compare By</label><br>
+        <input type="radio" name = "Option" value = "Line" required>
+        <label for = "line">Line</label><br>
+        <input type="radio" name = "Option" value = "Sentence" required>
+        <label for = "sentence">Sentence</label>
+    </div>
+    <button type = "submit" class = "btn btn-outline-success">Compare</button>
+</form>
+{% endblock %}

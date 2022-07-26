@@ -1,0 +1,29 @@
+.brand
+{
+    color: lime;
+}
+
+.content
+{
+    border: 1px solid whitesmoke;
+    padding: 30px;
+    border-radius: 5px;
+    margin: 20px;
+}
+
+.center
+{
+    text-align: center;
+}
+
+.error-img
+{
+    width: 400px;
+    height: 400px;
+}
+
+.danger
+{
+    color: crimson;
+    margin-top: 10px;
+}
